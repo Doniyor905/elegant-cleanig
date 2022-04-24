@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./libs/WOW-master/css/libs/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./libs/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./libs/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet"
+        href="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=190604ea-8141-11ec-abb7-b9a7ff2ee17c" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <a href="#!">
+                    <img src="./image/logo.png" alt="" class="logo">
+                </a>
+                <ul class="nav__list">
+                    <li><a href="#advantages" class="nav__link"><span>Примушества</span></a></li>
+                    <li><a href="#about" class="nav__link"><span>О нас</span></a></li>
+                    <li><a href="#question" class="nav__link"><span>Вопросы</span></a></li>
+                    <li><a href="#!" class="nav__link"><span>Контакты</span></a></li>
+                </ul>
+                <div class="contact__number">
+                    <div class="contact__number-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="contact__number-text">
+                        <a href="tel:+998907995575">90 799 55 75</a>
+                        <a href="tel:+998712007477">71 200 74 77</a>
+                    </div>
+                </div>
+                <div class="burger__menu">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__item">
+                    <h1 class="intro__title wow animate__fadeInDown animate__animated">Elegant gilam tozalash xizmati
+                    </h1>
+                    <div class="intro__form wow animate__animated animate__fadeInLeft">
+                        <div class="form__title">Введите ваш телефон, и технолог перезвонит вам в ближайшее время</div>
+                        <form class="form" method="POST" action="contact.php" data-error>
+                            <div class="formBlock">
+                                <div class="formBlock">
+                                    <input class="intro__input for" type="text" name="name" minlength="0" maxlength="30" data-error="Пожалуйста пополните форму" placeholder="Ф.И.О">
+                                </div>
+                                <div class="formBlock">
+                                    <input class="intro__input" id="phone" minlength="3" maxlength="100" data-error="Пожалуйста пополните форму" name="phone" type="text" placeholder="Телефон">
+                                        <span class="error-text"></span>
+                                </div>
+                                <div class="formBlock">
+                                    <button class="intro__button">Отправить</button>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="form__text">Перезвоним через пару минут</p>
+                    </div>
+                </div>
+                <div class="intro__img wow animate__animated animate__fadeInRight">
+                    <img src="./image/dfsdfsfd.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+
+        <section class="advantages" id="advantages">
+            <div class="container">
+                <h2 class="advantages__title all_title wow animate__fadeInDown animate__animated">Почему нам можно
+                    доверить Ваш ковёр?</h2>
+                <div class="advantages__inner">
+                    <div class="advantages__item wow animate__animated animate__fadeInLeft">
+                        <div class="advantages__icon"><i class="fas fa-user-chart"></i></div>
+                        <div class="advantages__subtitle">Работают профессионалы</div>
+                        <div class="advantages__text">У нас работают только профессионалы в сфере клининга</div>
+                    </div>
+
+                    <div class="advantages__item wow animate__animated animate__fadeInUp">
+                        <div class="advantages__icon"><i class="fas fa-ballot-check"></i></div>
+                        <div class="advantages__subtitle">Гарантия качества</div>
+                        <div class="advantages__text">Выводим неприятные запахи и пятна. Проведем повторную чистку или
+                            вернем деньги, если результат Вас не устроит.</div>
+                    </div>
+
+                    <div class="advantages__item wow animate__animated animate__fadeInRight ">
+                        <div class="advantages__icon"><i class="fas fa-user-chart"></i></div>
+                        <div class="advantages__subtitle">Безопасность и надёжность</div>
+                        <div class="advantages__text">Для чистки используется новейшее оборудование и безопасные
+                            химические препараты</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="price">
+            <div class="container">
+                <h2 class="price__title all_title wow animate__animated animate__fadeInLeft">Наши услуги</h2>
+                <div class="price__inner">
+                    <div class="price__item">
+                        <div class="price__subtitle">Стирка ковров</div>
+                        <div class="price__text_color">Belgiya asl ipak gilamlari 20 000 so‘m </div>
+                        <div class="price__text">Eron gilamlar 14000 so‘m</div>
+                        <div class="price__text_color">Oddiy sag, urgaz gilamlar 12000 so‘m</div>
+                        <div class="price__text">Turkiya gilamlari 13000so‘m</div>
+                    </div>
+
+                    <div class="price__item">
+                        <div class="price__subtitle">Химчистка мягкой мебели</div>
+                        <div class="price__text_color">Divan kreslo oshxona ugaloklarini 50000, 60000 so‘m.
+                        </div>
+                        <div class="price__text">Stul turiga qarab 25 000 so'm</div>
+                        <div class="price__text_color">Matras <br> 1 kishilik 120 000 so‘m 2 kishilik 200 000 so‘m
+                        </div>
+                    </div>
+
+                    <div class="price__item">
+                        <div class="price__subtitle">Твердые поверхности</div>
+                        <div class="price__text_color">Burchatka 1 kv m 13000 so‘m </div>
+                        <div class="price__text">Kafellar g‘isht yuzalar 15000 so‘m</div>
+                        <div class="price__text_color">Sokl, granit , mramor 20 000 so‘m</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <video class="video" src="./image/video.mp4" controls></video>
+        </div>
+        <section class="divan">
+            <div class="container">
+                <h2 class="divan__title all_title wow animate__animated animate__fadeInLeft">Чистка мебель</h2>
+                <div class="divan__inner">
+                    <div class="divan__img"><img src="./image/divan.png" alt=""></div>
+                    <div class="divan__item">
+                        <div class="divan__subtitle">
+                            Химчистка мебели в
+                            Ташкенте
+                        </div>
+                        <div class="divan__text">
+                            Компания «Elegant cleaning» предоставляет услуги
+                            по химчистке мебели и матрасов. Все
+                            услуги мы выполняем качественно. Для
+                            работы используем только передовые
+                            технологии, которые позволяют справиться
+                            с загрязнениями любой сложности.
+                            Все наши работники имеют большой
+                            опыт и квалификацию. Используем
+                            индивидуальный подход к каждому
+                            клиенту.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="bac__img" src="./image/11.png" alt="">
+        </section>
+        <section class="before">
+            <div class="container">
+                <h2 class="before__title all_title wow animate__animated animate__fadeInLeft">Посмотрите какого остигаем
+                    результата</h2>
+                <div class="before__inner">
+                    <div class="before__item wow animate__animated animate__fadeInUp">
+                        <iframe frameborder="0" class="juxtapose" width="100%"
+                            src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=190604ea-8141-11ec-abb7-b9a7ff2ee17c"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="box__form">
+            <div class="container">
+                <div class="form__inner wow animate__animated animate__fadeInDown">
+                    <div class="form__item">
+                        <div class="form__item-title">Введите ваш телефон, и технолог
+                            перезвонит вам в
+                            ближайшее время</div>
+                        <form class="box_form__item">
+                            <input class="form__input" type="text" placeholder="Ф.И.О">
+                            <input class="form__input" type="text" placeholder="Телефон">
+                            <button class="form__button">Отправить</button>
+                        </form>
+                    </div>
+                    <img class="form__img" src="./image/input-logo.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="process" id="about">
+            <div class="container">
+                <h2 class="process__title all_title">Процесс стирки ковра</h2>
+                <div class="process__content">
+                    <div class="process__inner">
+                        <div class="process__item wow animate__animated animate__fadeInLeft" data-wow-delay="1s">
+                            <img src="./image/about.png" class="process__img" alt="">
+                            <div class="process__text">БЕСПЛАТНО заберем ковры</div>
+                        </div>
+
+                        <div class="process__item wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+                            <img src="./image/about-1.png" class="process__img" alt="">
+                            <div class="process__text">ДОСТАВКА
+                                ковров на фабрику</div>
+                        </div>
+
+                        <div class="process__item wow animate__animated animate__fadeInRight" data-wow-delay="1s">
+                            <img src="./image/about-3.png" class="process__img" alt="">
+                            <div class="process__text">АНАЛИЗИРОВАНИЕ
+                                технологом</div>
+                        </div>
+                    </div>
+                    <div class="process__inner">
+                        <div class="process__item wow animate__animated animate__fadeInLeft" data-wow-delay="1s">
+                            <img src="./image/about4.png" class="process__img" alt="">
+                            <div class="process__text">СТИРКА
+                                ковров</div>
+                        </div>
+
+                        <div class="process__item wow animate__animated animate__fadeInDown" data-wow-delay="1s">
+                            <img src="./image/about5.png" class="process__img" alt="">
+                            <div class="process__text">СУШКА
+                                в бокс-камере</div>
+                        </div>
+
+                        <div class="process__item wow animate__animated animate__fadeInRight" data-wow-delay="1s">
+                            <img src="./image/about6.png" class="process__img" alt="">
+                            <div class="process__text">БЕСПЛАТНО
+                                везем домой</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="partner">
+            <div class="container">
+                <h2 class="partner__title all_title">Нам доверяют,
+                    с нами работают
+                </h2>
+                <div class="partner__inner">
+                    <div class="partner__content">
+                        <div class="partner__item">
+                            <img src="./image/artel.png" alt="">
+                        </div>
+
+                        <div class="partner__item">
+                            <img src="./image/sevimli.png" alt="">
+                        </div>
+                    </div>
+                    <div class="partner__content">
+                        <div class="partner__item">
+                            <img src="./image/myf5.png" alt="">
+                        </div>
+
+                        <div class="partner__item">
+                            <img src="./image/zortv.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="question" id="question">
+            <div class="container">
+                <h2 class="question__title all_title">Вопросы и ответы</h2>
+                <div class="question__inner">
+                    <div class="question__content  one">
+                        <div class="question__item wow animate__animated animate__fadeInLeft" data-wow-delay="1s">
+                            <div class="question__subtitle">
+                                <div class="question__text">Сколько времени займет стирка или чистка изделия?</div>
+                                <div class="question__icon"><i class="far fa-chevron-down"></i></div>
+                            </div>
+                            <div class="question__box">
+                                Процедура занимает 3 дня с учетом вывоза грязных изделий, сушки и доставки. Если нужно
+                                срочно, то сделаем за 24 часа, но это дорого.
+                            </div>
+                        </div>
+
+                        <div class="question__item wow animate__animated animate__fadeInLeft" data-wow-delay="1.1s">
+                            <div class="question__subtitle">
+                                <div class="question__text">Как доставляете?</div>
+                                <div class="question__icon"><i class="far fa-chevron-down"></i></div>
+                            </div>
+                            <div class="question__box">
+                                Всегда своим транспортом. Экспедитор сам заходит в квартиру и аккуратно забирает
+                                изделие. После выполнения заказа он относит изделие обратно.
+                                Вам нужно будет только свернуть изделие в рулон.
+                            </div>
+                        </div>
+
+                        <div class="question__item wow animate__animated animate__fadeInLeft" data-wow-delay="1.2s">
+                            <div class="question__subtitle">
+                                <div class="question__text">А ковер не испортится и не полиняет? С ним точно все будет
+                                    нормально?</div>
+                                <div class="question__icon"><i class="far fa-chevron-down"></i></div>
+                            </div>
+                            <div class="question__box">
+                                Не шерстяной ковер без клеевой основы Точно не испортится. Мы гарантируем и отвечаем за
+                                качество стирки и сохранность изделия.
+                                Шерстяной ковер на клеевой основе Даже от холодной воды натуральная шерсть может
+                                полинять. С этим ничего не поделать. Клеевая основа также может отойти от самого факта
+                                взаимодействия с водой, даже холодной. Предсказать результат до стирки невозможно, так
+                                что думайте, готовы вы на такие риски или нет.
+                            </div>
+                        </div>
+
+                        <div class="question__item wow animate__animated animate__fadeInLeft" data-wow-delay="1.3s">
+                            <div class="question__subtitle">
+                                <div class="question__text">Ковер не "пожмакается" после стирки?</div>
+                                <div class="question__icon"><i class="far fa-chevron-down"></i></div>
+                            </div>
+                            <div class="question__box">
+                                Можете быть уверены: сначала отжимаем ковер в промышленной центрифуге, а потом
+                                отправляем его в закрытый сушильный цех. Там он полностью высохнет вне зависимости от
+                                погоды.
+                            </div>
+                        </div>
+
+                        <div class="question__item wow animate__animated animate__fadeInLeft" data-wow-delay="1.4s">
+                            <div class="question__subtitle">
+                                <div class="question__text">Какие гарантии, что удалите все пятна?</div>
+                                <div class="question__icon"><i class="far fa-chevron-down"></i></div>
+                            </div>
+                            <div class="question__box">
+                                Мы делаем все возможное, чтобы удалить пятна на вашем ковре, но гарантию, что удалим все
+                                пятна не даем. Очень много в обиходе человека веществ, которые обесцвечивают волокна
+                                ковров, придают им другой цвет, проникая в ее структуру и наши специалисты оказываются
+                                бессильны перед таким фактом. Также нельзя забывать, что пятна нужно убирать сразу после
+                                образования, так как по истечении 24 часов удаляемость пятен снижается на 10-30%.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question__img">
+                        <img src="./image/vopros-img.png"
+                            class="question__img  wow animate__animated animate__fadeInRight" alt=""
+                            data-wow-delay="1s">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="map container">
+            <h2 class="map__title all_title">Где мы находимся</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.093910335958!2d69.29187381585295!3d41.35031247926769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x967bc00fcce1c154!2s8JHF972V%2B4J!5e0!3m2!1sru!2s!4v1643549027046!5m2!1sru!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <section class="contact">
+            <div class="container">
+                <div class="contact__inner">
+                    <div class="contact__item">
+                        <div class="contact__icon"><i class="far fa-map-marker-check"></i></div>
+                        <div class="contact__title">НАШЕ ПРОИЗВОДСТВО НАХОДИТСЯ
+                            В ТАШКЕНТЕ ПО АДРЕСУ:</div>
+                        <div class="contact__text">Юнусабадский район
+                            ул.Ташкетн </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <div class="contact__icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="contact__title">ВЫ МОЖЕТЕ ПОСЕТИТЬ ФАБРИКУ ПО
+                            ПРЕДВАРИТЕЛЬНОЙ ЗАПИСИ
+                            ПО ТЕЛЕФОНУ:</div>
+                        <a class="contact__phone" href="tel:+998907995575">90 799 55 75</a>
+                        <a class="contact__phone" href="tel:+998712007477">71 200 74 77</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <img src="./image/logo.png" class="footer__logo" alt="">
+                    <p class="copyright">© Elegant cleaning компания</p>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__contact">Контакты</div>
+                    <a href="#!" class="footer__number"><i class="fas fa-phone-alt footer__phone"></i> 90
+                        799 55 75 <br> 71 200 74 77</a>
+                    <a href="tel:+998907995575" class="footer__gmail"><i class="fas fa-envelope"></i>gilam@gmail.com</a>
+                    <a href="https://www.instagram.com/elegantcleaning.uz/" class="footer__instaram"> <i
+                            class="fab fa-instagram footer__insta"></i>
+                        elegantcleaning.uz</a>
+                    <a href="tel:+998907995575" class="footer__telegram"> <i class="fab fa-telegram footer__teleg"></i>
+                        elegantcleaning.uz</a>
+                </div>
+
+                <div class="footer__item">
+                    <div class="footer__form">
+                        <div class="footer__form-title">Введите ваш телефон, и технолог
+                            перезвонит вам в
+                            ближайшее время</div>
+                        <form class="footer__form-item">
+                            <input class="footer__input" type="text" placeholder="Ф.И.О">
+                            <input class="footer__input" type="text" placeholder="Телефон">
+                            <button class="footer__button">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./libs/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="./libs/WOW-master/dist/wow.min.js"></script>
+    <script src="./sources/send.js"></script>
+    <script src="./libs/jquery.spincrement.min.js"></script>
+    <script src="./libs/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
